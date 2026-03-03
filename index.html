@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACBCL.fr</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Pour les icônes réseaux sociaux -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -15,15 +18,15 @@
         <!-- Section 0 : Liens rapides + Authentification + Réseaux sociaux -->
         <div class="top-bar">
             <div class="links">
-                <a href="#">Devenez Bénévole</a>
+                <a href="#">Devenir Bénévole</a>
                 <a href="#">Partenariats</a>
                 <a href="#">Qui sommes-nous</a>
             </div>
             <div class="user-social">
                 <a href="#">Connexion</a>
-                <a href="#">FB</a>
-                <a href="#">TW</a>
-                <a href="#">IG</a>
+                    <a href="https://www.instagram.com/a.c.b.c.l/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
 
@@ -35,7 +38,7 @@
             <!-- Principal 1 -->
             <div class="principal-1">
                 <!-- Zone 0 : Bannière -->
-                <img src="banner.png" alt="Bannière ACBCL" class="banner">
+                <img src="images/Bannière tempraire pour site .png" alt="Bannière ACBCL" class="banner">
                 <!-- Zone 1 : Barre de menu principale -->
                 <nav class="main-menu">
                     <ul>
@@ -55,7 +58,26 @@
         <!-- Section 1 : Articles, formations, activités -->
         <section class="section-1">
             <h2>Articles, Formations et Activités</h2>
-            <p>Ici s’afficheront les articles, les formations et les activités proposées.</p>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="images/activite1.jpg" alt="Activité 1">
+                    <h3>Activité Enfants</h3>
+                    <p>Découverte et apprentissage ludique pour les enfants.</p>
+                    <button>En savoir plus</button>
+                </div>
+                <div class="card">
+                    <img src="images/activite2.jpg" alt="Activité 2">
+                    <h3>Activité Ados</h3>
+                    <p>Ateliers et stages pour adolescents.</p>
+                    <button>En savoir plus</button>
+                </div>
+                <div class="card">
+                    <img src="images/activite3.jpg" alt="Activité 3">
+                    <h3>Activités Familiales</h3>
+                    <p>Moments conviviaux et éducatifs pour toute la famille.</p>
+                    <button>En savoir plus</button>
+                </div>
+            </div>
         </section>
 
         <!-- Section 2 : News, nouveautés, activités récentes -->
@@ -63,29 +85,32 @@
             <h2>News et Activités Récentes</h2>
             <p>Ici s’afficheront les dernières actualités et nouveautés.</p>
         </section>
+
+        <!-- Formulaire Contact -->
+        <section class="contact">
+            <h2>Contactez-nous</h2>
+            <form>
+                <input type="text" name="nom" placeholder="Nom" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Votre message" rows="4" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
     </main>
 
-
-
-    <!-- Footer avec icônes sociales -->
+    <!-- FOOTER -->
     <footer>
-        <div class="social-icons">
-            <a href=" a venir" target="_blank">
-                <i class="fab fa-youtube"></i>
-            </a>
-            <a href="https://www.instagram.com/a.c.b.c.l/" target="_blank">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href=" a venir " target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
-
+        <div class="footer-top">
+            <img src="images/logo acbcl.webp" alt="Logo ACBCL" class="footer-logo">
+            <div class="social-icons">
+                <a href="https://www.instagram.com/a.c.b.c.l/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                 <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
         </div>
+        <p>Contact : contact@acbcl.fr | Mentions légales | Liens utiles</p>
         <p>&copy; 2026 ACBCL - Tous droits réservés</p>
     </footer>
-
-    <p>Contact : contact@acbcl.fr | Mentions légales | Liens utiles</p>
-
 
     <script src="script.js"></script>
 </body>
