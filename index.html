@@ -4,34 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACBCL site</title>
-
-    <!-- Pour les icônes -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <!-- fichier CSS -->
+    <title>ACBCL.fr</title>
     <link rel="stylesheet" href="style.css">
-
-
 </head>
 
 <body>
-    <h1>Bienvenue sur le site de l'ACBCL</h1>
 
+    <!-- HEADER -->
+    <header>
+        <!-- Section 0 : Liens rapides + Authentification + Réseaux sociaux -->
+        <div class="top-bar">
+            <div class="links">
+                <a href="#">Devenez Bénévole</a>
+                <a href="#">Partenariats</a>
+                <a href="#">Qui sommes-nous</a>
+            </div>
+            <div class="user-social">
+                <a href="#">Connexion</a>
+                <a href="#">FB</a>
+                <a href="#">TW</a>
+                <a href="#">IG</a>
+            </div>
+        </div>
 
+        <!-- Section 1 : Principal 0 (Logo) + Principal 1 (Bannière + Menu) -->
+        <div class="branding">
+            <!-- Principal 0 : Logo -->
+            <img src="images/logo acbcl.webp" alt="Logo ACBCL" class="logo">
 
+            <!-- Principal 1 -->
+            <div class="principal-1">
+                <!-- Zone 0 : Bannière -->
+                <img src="banner.png" alt="Bannière ACBCL" class="banner">
+                <!-- Zone 1 : Barre de menu principale -->
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Inscription</a></li>
+                        <li><a href="#">Activités</a></li>
+                        <li><a href="#">Accompagnement à la Scolarité</a></li>
+                        <li><a href="#">Accompagnement à la Parentalité</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
 
+    <!-- BODY -->
+    <main>
+        <!-- Section 1 : Articles, formations, activités -->
+        <section class="section-1">
+            <h2>Articles, Formations et Activités</h2>
+            <p>Ici s’afficheront les articles, les formations et les activités proposées.</p>
+        </section>
 
-
-
-
-
-
-
-
-
-
-
+        <!-- Section 2 : News, nouveautés, activités récentes -->
+        <section class="section-2">
+            <h2>News et Activités Récentes</h2>
+            <p>Ici s’afficheront les dernières actualités et nouveautés.</p>
+        </section>
+    </main>
 
 
 
@@ -44,13 +76,18 @@
             <a href="https://www.instagram.com/a.c.b.c.l/" target="_blank">
                 <i class="fab fa-instagram"></i>
             </a>
-            <a href="https://www.linkedin.com/in/toncompte" target="_blank">
+            <a href=" a venir " target="_blank">
                 <i class="fab fa-linkedin"></i>
             </a>
-            
+
         </div>
         <p>&copy; 2026 ACBCL - Tous droits réservés</p>
     </footer>
+
+    <p>Contact : contact@acbcl.fr | Mentions légales | Liens utiles</p>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
